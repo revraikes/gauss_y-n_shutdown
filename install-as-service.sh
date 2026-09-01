@@ -7,6 +7,7 @@ sudo cp gauss_y_n_shutdown.py /opt/sense-hat/
 
 #Copy shell script to binaries for systemd to use
 sudo cp gauss-yns.sh /usr/local/bin/
+sudo chmod +x /usr/local/bin/gauss-yns.sh
 
 #Create .service file in systemd folder
 sudo cp gauss-yns.service /etc/systemd/system/ 
