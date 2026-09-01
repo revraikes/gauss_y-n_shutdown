@@ -15,4 +15,6 @@ The directions button in the .py file are written in a way that makes sense to m
 
 Lastly, there's a clear pixels function to save power and/or remove your face gesture, and pressing down in the middle shuts the Pi down so that just pulling the power doesn't damage the board or SD card.
 
+Since the Pi is headless, I've included an installer script to make the application start on boot as a systemctl enabled service. Just navigate to the repo folder in terminal and type "./install-as-service.sh". To stop the service: "sudo systemctl stop gauss-tns.service".
+
 h/t to [MadTC Tech](https://gitlab.com/MadTcTutorials/python/sensehat) for his invaluable examples and thorough video tutorials on Youtube
