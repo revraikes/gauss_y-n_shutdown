@@ -7,7 +7,7 @@
 - Clear pixels  
 - System shutdown
 
-This project was developed to educate myself on Python programming. If your anything like me, you need to see real results, and one of the more fun ways to do that is with flashy lights that also serve a valuable function. None of the available examples out in the wild had a function-switching capability, so I set about making that happen.
+This project was developed to educate myself on Python programming. If you're anything like me, you need to see real results, and one of the more fun ways to do that is with flashy lights that also serve a valuable function. None of the available examples out in the wild had a function-switching capability, so I set about making that happen.
 
 It was created on a Raspberry Pi 4 that I had lying around and using an Anker Power Bank battery, because a gaussmeter tied to an outlet isn't very useful (yes, it powers it just fine, but maybe not a Pi 5- YMMV).
 
